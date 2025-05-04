@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Event Handling</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1> JavaScript Event handling workout</h1>
+
+  <!-- Event Handling Section -->
+  <button id="clickBtn">Click Me!</button>
+  <div id="hoverBox">Hover over me</div>
+  <p id="keyInfo">Press any key...</p>
+
+  <!-- Interactive Section -->
+  <button id="colorToggleBtn">Change My Color</button>
+
+  <div class="tabs">
+    <button class="tab" data-target="tab1">Tab 1</button>
+    <button class="tab" data-target="tab2">Tab 2</button>
+    <div id="tab1" class="tab-content">Content for Tab 1</div>
+    <div id="tab2" class="tab-content hidden">Content for Tab 2</div>
+  </div>
+
+  <!-- Form Section -->
+  <form id="signupForm">
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password (min 8 chars)" required />
+    <button type="submit">Sign Up</button>
+    <p id="formMessage"></p>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
